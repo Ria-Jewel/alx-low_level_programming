@@ -8,8 +8,8 @@ void errors(void);
 /**
 * main -  a program that multiplies two positive numbers
 * @argc: the number of arguments
-* @argv: an array of strings containing each argument
-* Return: returns 0 (success)
+* @argv: an array of strings.
+* Return: return 0.
 */
 int main(int argc, char **argv)
 {
@@ -56,9 +56,9 @@ int main(int argc, char **argv)
 }
 
 /**
-* is_digit - checks if every character of a string is a digit
+* is_digit - checks if every character
 * @s: the string to be checked
-* Return: returns 0 if a non-digit is found, 1 otherwise
+* Return: returns 0
 */
 int is_digit(char *s)
 {
@@ -73,9 +73,9 @@ int is_digit(char *s)
 }
 
 /**
-* _strlen - calculates the length of a string (excluding the null-terminator)
+* _strlen - calculates the length of a string
 * @s: the string to be checked
-* Return: returns the length of the string as an int
+* Return: returns the length of the string
 */
 int _strlen(char *s)
 {
@@ -88,9 +88,9 @@ int _strlen(char *s)
 }
 
 /**
-* errors - prints out "Error" if an error is encountered and exits with
+* errors - prints out "Error"
 * a status of 98
-* Return: returns nothing
+* Return: returns
 */
 void errors(void)
 {
