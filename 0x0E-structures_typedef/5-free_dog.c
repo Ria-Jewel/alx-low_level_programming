@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * free_dog - frees memory 
- * @d: struct dog
+ * free_dog - frees memory. 
+ * @d: struct dog.
  */
 void free_dog(dog_t *d)
 {

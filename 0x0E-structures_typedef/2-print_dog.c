@@ -3,8 +3,8 @@
 #include "dog.h"
 
 /**
- * print_dog - prints struct dog
- * @d: struct dog 
+ * free_dog - frees memory
+ * @d: struct dog
  */
 void print_dog(struct dog *d)
 {

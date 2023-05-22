@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _strlen - returns the lenght
- *@s: poiter
- *Return: length 
+ * _strlen - returns the lenght of a string
+ *@s: poiter of character
+ *Return: the length of a string
  */
 int _strlen(char *s)
 {
@@ -17,10 +17,10 @@ int _strlen(char *s)
 }
 
 /**
- * *_strcpy - copies pointed strings
- *@dest: string
- *@src: origin of string
- *Return: dest 
+ * *_strcpy - copies the string pointed
+ *@dest: copie of the string
+ *@src: origin of the string
+ *Return: dest destine copie
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -35,11 +35,11 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * new_dog - function new dog
- *@name: of dog
- *@age: of dog
- *@owner: name of dog owner
- *Return: dog 
+ * new_dog - function that creates a new dog
+ *@name: name of the dog
+ *@age: age of the dog
+ *@owner: name of owner of the dog
+ *Return: dog created
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
