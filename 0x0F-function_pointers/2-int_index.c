@@ -2,7 +2,7 @@
 /**
  *  int_index -function that  searches for an integer
  *  @array: of an element
- *  @size: size 
+ *  @size: size
  *  @cmp: pointer to the function
  *  Return: If no element matches, return -1
  *  If size <= 0, return -1

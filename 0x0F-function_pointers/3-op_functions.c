@@ -31,7 +31,7 @@ int op_mul(int a, int b)
 }
 /**
  * op_div - returns the result of a by b
- * @a: first 
+ * @a: first
  * @b: second
  * Return: the result
  */
